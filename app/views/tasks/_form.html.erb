@@ -1,0 +1,8 @@
+<!-- <h1>Tasks#form</h1>
+<p>Find me in app/views/tasks/form.html.erb</p> -->
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit %>
+<% end %>
